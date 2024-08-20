@@ -14,12 +14,12 @@ Install the Ultralytics YOLOv8 package:
 
 ```bash
 pip install ultralytics 
-\```
+```
 
 ## Training Script
 Below is the training script used for all YOLOv8 variants. This example is for the YOLOv8n variant:
 
-\```python
+```python
 from ultralytics import YOLO
 
 # Load the model
@@ -29,7 +29,7 @@ model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # build from YAML and transfer 
 
 # Train the model
 model.train(data='OT_data.yaml', epochs=300, imgsz=640)
-\```
+```
 
 ## How to Use
 
@@ -42,7 +42,7 @@ Navigate to the folder containing the `train.py` script and run:
 
 ```bash
 python train.py
-\```
+```
 ## Configuration (args.yaml)
 Each YOLOv8 variant uses an `args.yaml` file to configure training parameters. Below is an example configuration:
 
@@ -67,7 +67,7 @@ translate: 0.1
 scale: 0.5
 fliplr: 0.5
 mosaic: 1.0
-\```
+```
 ## Data Augmentation
 The `args.yaml` file includes parameters for data augmentation. These parameters control how images are augmented during training:
 
