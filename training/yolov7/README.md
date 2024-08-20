@@ -95,6 +95,15 @@ mixup: 0.15
 The `hyp.yaml` file includes parameters for data augmentation. These parameters control how images are augmented during training:
 
 - `hsv_h`, `hsv_s`, `hsv_v`: Adjust hue, saturation, and value.
+- `degrees`: Degree of rotation.
+- `translate`: Translation as a fraction of image dimensions.
+- `scale`: Scale factor.
+- `fliplr`: Probability of horizontal flip.
+- `mosaic`: Mosaic augmentation probability.
+- `mixup`: Probability of applying mixup augmentation, where images are blended with other images.
+- `shear`: Shear angle in degrees.
+- `perspective`: Perspective distortion factor.
+
 - `degrees`, `translate`, `scale`, `fliplr`, `mosaic`, `mixup`: Various augmentation techniques.
 
 These augmentations are automatically applied during training when the script is executed.
