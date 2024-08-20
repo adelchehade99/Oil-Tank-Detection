@@ -1,0 +1,19 @@
+# OT  dataset 
+
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+train: /media/mrizk/DiskB/Datasets/oil_tank_big_dataset/OilTanks_train90%_valid10%_test0%/OilTanks_train_90%.txt
+
+val: /media/mrizk/DiskB/Datasets/oil_tank_big_dataset/OilTanks_train90%_valid10%_test0%/OilTanks_valid_10%.txt
+
+#train: ./coco/train2017.txt  # 118287 images
+#val: ./coco/val2017.txt  # 5000 images
+#test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 1
+
+# class names
+names: ['OT' ]
