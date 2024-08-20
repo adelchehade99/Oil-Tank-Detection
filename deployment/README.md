@@ -19,12 +19,12 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
      cd yolov7
      pip install -r requirements.txt
      ```
-  2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN:
+  2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN. The following versions are examples; you should modify them according to your specific requirements:
      ```bash
      pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
      ```
      - [Link for compatible PyTorch versions with CUDA for high-end GPUs](https://pytorch.org/get-started/previous-versions/)
-  3. For edge devices like Nvidia Jetson, install PyTorch and TorchVision using pre-built pip wheels:
+  3. For edge devices like Nvidia Jetson, install PyTorch and TorchVision using pre-built pip wheels. Again, the versions provided are examples and should be adjusted based on your JetPack version:
      - **Install PyTorch** (example for JetPack 5.0.2):
        ```bash
        sudo apt-get install -y libopenblas-base libopenmpi-dev
@@ -50,7 +50,7 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
      cd ultralytics
      pip install -r requirements.txt
      ```
-  2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN:
+  2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN. The versions provided below are examples; you should modify them according to your specific requirements:
      ```bash
      pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
      ```
