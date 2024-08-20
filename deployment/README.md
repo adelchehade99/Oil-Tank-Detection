@@ -41,7 +41,7 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
      - [Link for PyTorch compatibility with Jetson platforms](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
 ### YOLOv8
-- **Python version**: Python 3.x
+- **Python version**: Python 3.8+
 - **Environment**: Can be used with Anaconda or PyCharm.
 - **Dependencies**:
   1. Clone the YOLOv8 repository from Ultralytics:
