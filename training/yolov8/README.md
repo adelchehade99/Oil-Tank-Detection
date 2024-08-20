@@ -43,6 +43,28 @@ Navigate to the folder containing the `train.py` script and run:
 ```bash
 python train.py
 ```
+
+## Configuration (OT_data.yaml)
+The `OT_data.yaml` file specifies the paths to your training and validation datasets, the number of classes, and the class names. Below is an example configuration:
+
+```yaml
+# OT dataset
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /path/to/train/images.txt
+val: /path/to/val/images.txt
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['OT']
+```
+- `train`: Path to the text file listing all the training images.
+- `val`: Path to the text file listing all the validation images.
+- `nc`: Number of classes in your dataset. For oil tank detection, this is set to 1.
+- `names`: List of class names. Here, it's set to ['OT'] for oil tanks.
+
 ## Configuration (args.yaml)
 Each YOLOv8 variant uses an `args.yaml` file to configure training parameters. Below is an example configuration:
 
