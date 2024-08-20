@@ -2,13 +2,28 @@
 
 This README provides detailed instructions for training YOLOv7 models (YOLOv7-tiny, YOLOv7-standard, YOLOv7-x) for Oil Tank Detection.
 
-## Training Script
-To begin training, ensure that you have the YOLOv7 repository cloned and the `train.py` script available. If you haven't already, download the repository using the following commands:
+## Prerequisites
 
-```bash
-git clone https://github.com/WongKinYiu/yolov7.git
-cd yolov7
-```
+Ensure you have the following dependencies installed:
+
+- **Python 3.7+**
+- **PyTorch**
+- **TorchVision**
+
+1. **Clone the YOLOv7 repository:**
+   ```bash
+   git clone https://github.com/WongKinYiu/yolov7.git
+   cd yolov7
+   ```
+2. **Install the required packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Ensure you are using a version of PyTorch and TorchVision that is compatible with CUDA for GPU acceleration.** You can find compatible versions [here](https://pytorch.org/get-started/previous-versions/).
+
+## Training Script
+To begin training, ensure that you have the YOLOv7 repository cloned and the `train.py` script available. If you haven't already, download the repository using the commands provided above.
 
 Below is the training script used for all YOLOv7 variants. This example is for the YOLOv7-standard variant:
 
