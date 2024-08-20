@@ -15,10 +15,10 @@ The dataset used for this project is available in the [releases section](https:/
 ## Installation
 
 1. Clone the repository:
-   \```bash
+   ```bash
    git clone https://github.com/adelchehade99/Oil-Tank-Detection.git
    cd Oil-Tank-Detection
-   \```
+   ```
 
 
 For specific dependencies and setup instructions, refer to the `README.md` files within the `training/` and `deployment/` directories for YOLOv7 and YOLOv8.
