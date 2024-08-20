@@ -5,16 +5,16 @@ This README provides detailed instructions for training YOLOv7 models (YOLOv7-ti
 ## Training Script
 To begin training, ensure that you have the YOLOv7 repository cloned and the `train.py` script available. If you haven't already, download the repository using the following commands:
 
-\```bash
+```bash
 git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
-\```
+```
 
 Below is the training script used for all YOLOv7 variants. This example is for the YOLOv7-standard variant:
 
-\```bash
+```bash
 python train.py --opt OT/OT_yolov7/opt.yaml
-\```
+```
 
 ## How to Use
 
@@ -25,9 +25,9 @@ python train.py --opt OT/OT_yolov7/opt.yaml
 ### Run the Training Script:
 Navigate to the folder containing the YOLOv7 `train.py` script and run the command specific to your variant:
 
-\```bash
+```bash
 python train.py --opt OT/OT_yolov7/opt.yaml
-\`````
+```
 
 ## Configuration (opt.yaml)
 Each YOLOv7 variant uses an `opt.yaml` file to configure training parameters. Below is an example configuration for YOLOv7-standard:
@@ -48,12 +48,12 @@ project: yolov7
 name: OT_run
 save_dir: yolov7/OT_run
 ...
-\```
+```
 
 ## Hyperparameters (hyp.yaml)
 The `hyp.yaml` file includes hyperparameters for training. Below is an example configuration:
 
-\```yaml
+```yaml
 lr0: 0.01
 lrf: 0.1
 momentum: 0.937
@@ -74,7 +74,7 @@ fliplr: 0.5
 mosaic: 1.0
 mixup: 0.15
 ...
-\```
+```
 
 ## Data Augmentation
 The `hyp.yaml` file includes parameters for data augmentation. These parameters control how images are augmented during training:
