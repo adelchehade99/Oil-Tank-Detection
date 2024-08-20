@@ -21,5 +21,5 @@ The dataset used for this project is available in the [releases section](https:/
    ```
 
 
-For specific dependencies and setup instructions, refer to the `README.md` files within the `training/` and `deployment/` directories for YOLOv7 and YOLOv8.
+2. For specific dependencies and setup instructions, refer to the `README.md` files within the `training/` and `deployment/` directories for YOLOv7 and YOLOv8.
 
