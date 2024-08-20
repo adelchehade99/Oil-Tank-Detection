@@ -21,8 +21,9 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
      ```
   2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN:
      ```bash
-     conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+     pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
      ```
+     - [Link for compatible PyTorch versions with CUDA for high-end GPUs](https://pytorch.org/get-started/previous-versions/)
   3. For edge devices like Nvidia Jetson, install PyTorch and TorchVision using pre-built pip wheels:
      - **Install PyTorch** (example for JetPack 5.0.2):
        ```bash
@@ -37,6 +38,7 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
        cd torchvision
        python3 setup.py install --user
        ```
+     - [Link for PyTorch compatibility with Jetson platforms](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
 ### YOLOv8
 - **Python version**: Python 3.x
@@ -50,8 +52,9 @@ This directory contains deployment scripts for oil tank detection using YOLOv7 a
      ```
   2. For high-end GPUs, install PyTorch and TorchVision compatible with CUDA and cuDNN:
      ```bash
-     conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+     pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
      ```
+     - [Link for compatible PyTorch versions with CUDA for high-end GPUs](https://pytorch.org/get-started/previous-versions/)
   3. For edge devices like Nvidia Jetson, install PyTorch and TorchVision using pre-built pip wheels (as described in the YOLOv7 section above).
 
 ## Notes
