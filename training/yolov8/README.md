@@ -10,7 +10,20 @@ Ensure you have the following dependencies installed:
 - PyTorch
 - Ultralytics YOLOv8 package
 
-Install the Ultralytics YOLOv8 package:
+1. **Clone the YOLOv8 repository:**
+   ```bash
+   git clone https://github.com/ultralytics/ultralytics.git
+   cd ultralytics
+   ```
+
+2. **Install the required packages:**
+
+```bash
+pip install -r requirements.txt
+```
+3. **Ensure you are using a version of PyTorch and TorchVision that is compatible with CUDA for GPU acceleration.** You can find compatible versions [here](https://pytorch.org/get-started/previous-versions/).
+
+4. **Install the Ultralytics YOLOv8 package:**
 
 ```bash
 pip install ultralytics 
