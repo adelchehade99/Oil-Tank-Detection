@@ -23,3 +23,20 @@ The dataset used for this project is available in the [releases section](https:/
 
 2. For specific dependencies and setup instructions, refer to the `README.md` files within the `training/` and `deployment/` directories for YOLOv7 and YOLOv8.
 
+## Citation
+
+If you use this dataset or repository in your research, please cite:
+
+Chehade, A., & Rizk, M.  
+Efficient Oil Tank Detection Using Deep Learning: A Novel Dataset and Deployment on Edge Devices.  
+IEEE Access, 2024.  
+https://doi.org/10.1109/ACCESS.2024.3495523
+
+Chehade, A., & Rizk, M.  
+Unveiling a Cutting-Edge Dataset for Oil Tank Detection: YOLO Models Put to the Test.  
+IC2SPM 2024.  
+https://doi.org/10.1109/IC2SPM62723.2024.10841353
+
+Dataset DOI:  
+https://doi.org/10.5281/zenodo.18794029
+
