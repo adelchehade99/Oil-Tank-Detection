@@ -28,7 +28,6 @@ The dataset used for this project is available in the [releases section](https:/
 If you use this dataset or repository in your research, please cite:
 
 Rizk, M., & Chehade, A. 
-
 Efficient Oil Tank Detection Using Deep Learning: A Novel Dataset and Deployment on Edge Devices.  
 IEEE Access, 2024.  
 https://doi.org/10.1109/ACCESS.2024.3495523
